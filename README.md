@@ -1,10 +1,10 @@
 # Low level discovery functions for Zabbix
 
+
 ## Licensing:
 
 Licensed under ISC license:
 
-    :::text
 	Copyright (c) 2012 Andre Sencioles Vitorio Oliveira <andre@bcp.net.br>
 	
 	Permission to use, copy, modify, and distribute this software for any
