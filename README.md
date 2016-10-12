@@ -4,8 +4,8 @@
 ## Licensing:
 
 Licensed under ISC license:
-
-	Copyright (c) 2012 Andre Sencioles Vitorio Oliveira <andre@bcp.net.br>
+	
+	Copyright (c) 2016 Andre Sencioles <asenci@gmail.com>
 	
 	Permission to use, copy, modify, and distribute this software for any
 	purpose with or without fee is hereby granted, provided that the above

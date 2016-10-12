@@ -1,12 +1,18 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
     name='zabbix_lld',
-    version='0.1',
-    scripts=['zabbix_lld.py'],
-    url='https://bitbucket.org/asenci/zabbix_lld',
+    description='Low level discovery functions for Zabbix',
+    version='0.2',
+    author='Andre Sencioles',
+    author_email='asenci@gmail.com',
     license='ISC License',
-    author='Andre Sencioles Vitorio Oliveira',
-    author_email='andre@bcp.net.br',
-    description='Low level discovery functions for Zabbix'
+    url='https://bitbucket.org/asenci/zabbix_lld',
+
+    packages=find_packages(),
+    entry_points={
+        'console_scripts': [
+            'zabbix_lld = zabbix_lld:main',
+        ]
+    },
 )
