@@ -7,7 +7,7 @@ setup(
     author='Andre Sencioles',
     author_email='asenci@gmail.com',
     license='ISC License',
-    url='https://bitbucket.org/asenci/zabbix_lld',
+    url='https://github.com/asenci/zabbix_lld',
 
     packages=find_packages(),
     entry_points={
